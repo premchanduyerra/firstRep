@@ -9,7 +9,7 @@ const app = express();
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
-mongoose.connect("mongodb+srv://admin123:admin123@cluster0-0tqob.mongodb.net/chatDB", { useNewUrlParser: true , useUnifiedTopology: true},function(err){
+mongoose.connect("mongodb+srv://lakshman:lakshman @cluster0-0tqob.mongodb.net/chatDB", { useNewUrlParser: true , useUnifiedTopology: true},function(err){
     if(!err){
         console.log("connected with database");
         
