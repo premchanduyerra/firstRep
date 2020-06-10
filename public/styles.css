@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+}
+
+.chat {
+  
+  padding: 10px;
+  background-color: white;
+
+}
+div.chat-window { 
+    border: black solid 1px;
+    background-color: #8db1ab;
+  
+    text-align: left;
+    padding:20px;
+    margin:4px, 4px; 
+    padding:4px; 
+   margin-left: 33.5%;
+   
+    height: 400px; 
+    width: 500px;
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+    text-align:justify; 
+    overflow-anchor: none;
+} 
+.container{
+ 
+  text-align: center;
+}
+#feedback {
+    /* allow the final child to be selected as an anchor node */
+    overflow-anchor: auto;
+
+    /* anchor nodes are required to have non-zero area */
+    height: 1px;
+}
+
+div{
+    margin-top: 10px;
+}
+#username{
+    width: 500px;
+    height: 30px;
+}
+#message{
+    width: 500px;
+    height: 50px;
+}
+#btn{
+width: 100px;
+}
+
+
+/* popup */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
